@@ -6,12 +6,12 @@ public class Greeter extends Person {
 		// TODO Auto-generated constructor stub
 	}
 	public Greeter(Person p) {
-		super(p._name);
+		super(p.name);
 	}
-	public String hi(Person p) {
-		return "Hello, " + p._name;
+	public String sayHi(Person p) {
+		return name + " says: Hello, " + p.name;
 	}
-	public String bye(Person p) {
-		return "Goodbye, " + p._name;
+	public String sayBye(Person p) {
+		return name + " says: Goodbye, " + p.name;
 	}
 }

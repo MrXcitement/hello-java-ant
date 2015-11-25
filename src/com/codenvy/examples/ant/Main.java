@@ -7,10 +7,10 @@ public class Main {
     	Person jack = new Person("Jack");
     	
     	Greeter g = new Greeter(manny);
-    	System.out.println(g.hi(moe));
-    	System.out.println(g.hi(jack));
-    	System.out.println(g.bye(jack));
-    	System.out.println(g.bye(moe));
+    	System.out.println(g.sayHi(moe));
+    	System.out.println(g.sayHi(jack));
+    	System.out.println(g.sayBye(jack));
+    	System.out.println(g.sayBye(moe));
         
     }
 }
