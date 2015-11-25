@@ -1,9 +1,8 @@
-package com.codenvy.examples.ant;
+package com.sixpines.example.hello;
 
 public class Greeter extends Person {
 	public Greeter(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 	public Greeter(Person p) {
 		super(p.name);

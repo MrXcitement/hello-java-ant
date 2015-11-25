@@ -1,4 +1,4 @@
-package com.codenvy.examples.ant;
+package com.sixpines.example.hello;
 
 public class Main {
     public static void main(String[] args) {
